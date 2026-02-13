@@ -48,6 +48,7 @@ export async function POST(req) {
       firstname,
       lastname,
       status: "ACTIVE",
+      profileImage: null,
     });
     console.log("result", result);
     return NextResponse.json(

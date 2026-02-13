@@ -34,6 +34,9 @@ export default function Header() {
               <span style={{ fontSize: 14, color: "#666" }}>
                 Welcome, <strong>{user.firstname || user.email}</strong>
               </span>
+              <Link href="/profile" style={{ textDecoration: "none", color: "#1e88e5", fontSize: 14, fontWeight: "500" }}>
+                Profile
+              </Link>
               <Link href="/settings" style={{ textDecoration: "none", color: "#1e88e5", fontSize: 14, fontWeight: "500" }}>
                 Settings
               </Link>

@@ -260,6 +260,24 @@ export default function SettingsPage() {
 
         <button
           type="button"
+          onClick={() => router.push("/profile")}
+          style={{
+            backgroundColor: "#1976d2",
+            color: "white",
+            border: "none",
+            padding: "12px 24px",
+            borderRadius: 6,
+            fontSize: 16,
+            fontWeight: "bold",
+            cursor: "pointer",
+            marginRight: 12,
+          }}
+        >
+          View Full Profile
+        </button>
+
+        <button
+          type="button"
           onClick={() => router.push("/users")}
           style={{
             backgroundColor: "#9e9e9e",
